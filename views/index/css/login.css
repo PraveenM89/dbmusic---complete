@@ -1,0 +1,121 @@
+body {
+    text-align: center;
+    margin: 0 0 0 0;
+    padding: 0 0 20px 0;
+    background-color: #EEE;
+    
+    
+    
+}
+.header {
+    text-align: left;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: auto;
+    z-index: 10;
+    
+    position: fixed;
+    height: 65px;
+    box-shadow: 0 0 9px #9b59b6;
+    color: rgb(255, 255, 255);
+    padding: 0 0px;
+    background-color: #fff;
+}
+
+.header .title {
+    background-color: #046eb4;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+#whole {
+    margin-top: 60px;
+    background: url( /media/images/loginbg.jpg );
+    background-size: 100% 100%;
+    
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    box-shadow: 0 0 5px #EEE; 
+    width: 1100px;
+    height: 550px;
+    overflow-y: hidden;
+    background-position:left bottom;
+    background-repeat: no-repeat;
+    
+   /* ##background-image: url( /media/images/loginbg.jpg );*/
+}
+
+
+#lform{
+    padding-top: 30px;
+    
+    text-decoration: underline;
+    float: right;
+    margin-right: 80px;
+    margin-top: 100px;
+    border: 2px solid; 
+    
+    border-radius: 25px;
+    border-color: #fff;
+    width: 350px;
+    height: 280px;
+    z-index: -2; 
+}
+
+
+form{
+    text-align: left;
+    padding: 10px 20px 20px 65px;
+    
+}
+
+form > *{
+    margin-bottom: 10px;
+    height: 30px;
+}
+
+h2{
+    font-size:20px;
+	font-weight:bold;
+	font-family:Myriad Pro;
+	text-transform:uppercase;
+}
+
+form input{
+    width: 200px;
+     height: 25px;
+}
+
+#submit{
+    float: left;
+    margin-right: 20px;
+    width: 75px;
+    height: 25px;
+}
+
+#warning{
+
+    color: #ff6a00;
+    
+}
+#usernotexist{
+
+    color: #ff6a00;
+    
+}
+#submit:hover{
+    background-color: #14dddd
+}
+
+#link_right{
+    color:#bbb;
+    padding-top: 7px;
+	font-size:15px;
+	text-decoration:none;
+	transition: color 0.5s linear;
+	
+}

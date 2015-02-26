@@ -1,0 +1,53 @@
+#searchchoice {
+    width: 250px;
+    height:30px;
+    font-size:12pt;
+    /*background-color: #808080;*/
+}
+
+#searchlabel {
+    margin-right: 35px;
+    width: 250px;
+    height:30px;
+    float: left;
+    text-align: right;
+    font-size:13pt;
+    background-color: #EEE;
+}
+
+#concertsearch, #artistsearch, #usersearch, #concertcontent, #artistcontent, #usercontent{
+    margin: 30px 20px 20px 20px
+}
+
+#searchconcertfilter, #searchartistfilter, #usersearchfilter{
+    padding: 15px 10px 10px 10px;
+    
+}
+
+#searchconcertfilter label, #searchartistfilter label, #usersearchfilter label{
+    margin-right: 35px;
+    width: 250px;
+    display: block;
+    float: left;
+    text-align: right;
+     
+}
+
+.entity{
+    margin-top: 7px;
+    
+}
+
+.moneyradiofilter{
+   
+    margin: 0 4px 0 4px;
+}
+
+.searchsubmit{
+    text-align:center;
+    margin-top:20px;
+}
+
+#artistsearch, #concertsearch, #usersearch{
+    display: none;
+}

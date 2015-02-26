@@ -1,0 +1,32 @@
+.content-title{
+    padding-left: 5px;
+    color: #fff;
+    font-size: 1.2em;
+    background-color: #aba9e1;
+    width: 100%;
+    
+        
+}
+.onebloack{
+    display: inline-block;
+    margin: 5px 10px 5px 10px;
+    color: #fff;
+    
+}
+
+.oneblock{
+    font-size: 0.9em;
+    display: inline-block;
+    margin: 5px 10px 5px 10px;
+    color: #000;
+    
+}
+
+.mytabs{
+    margin-top: 2px;
+    margin-bottom: 10px;
+}
+
+#passwordetails{
+    padding:  20px 20px 20px 20px;
+}

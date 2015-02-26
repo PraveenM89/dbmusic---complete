@@ -1,0 +1,87 @@
+.center-it {
+    width: 950px;
+    margin: auto;
+}
+
+.leftpanel {
+    background-color: #b0c3ef;
+    box-shadow: 0 0 2px #EEE;
+    position: absolute;
+    top: 65px;
+    left: 0;
+    right: auto;
+    bottom: 0;
+    z-index: 1;
+    position: fixed;
+    width: 250px;
+    padding: 25px;
+}
+
+.leftpanel ul li {
+    border: 1px solid;
+    margin-bottom: 15px;
+}
+
+
+
+.leftpanel ul li a {
+    padding: 5px 10px;
+    display: block;
+    
+    border-radius: 2px;
+}
+
+.leftpanel ul li a:hover, .leftpanel ul li a.active, .leftpanel ul li a:active {
+    background-color: #5982e3;
+    text-align: right;
+    color: #fff;
+}
+
+.leftpanel ul li a.active, .leftpanel ul li a:active {
+    text-shadow: 0 0 5px #253d71;
+    box-shadow: inset 0 0 5px #5982e3;
+}
+
+.leftpanel ul li a + form {
+    display: none;
+    background-color: rgba(41, 61, 226, 0.10);
+    box-shadow: 0 0 5px rgba(56, 70, 236, 0.10) inset;
+    padding: 6px;
+    border-radius: 0 0 3px 3px;
+    overflow: auto;
+}
+
+.leftpanel ul li a + form label {
+    font-size: 14px;
+}
+
+.leftpanel ul li a + form .txt {
+    padding: 5px 10px;
+    margin-bottom: 2px;
+}
+
+.leftpanel ul li a + form .btn {
+    padding: 5px 10px;
+}
+
+.leftpanel ul li a + form .btn:last-child {
+    margin-top: 6px;
+    float: right;
+}
+
+.leftpanel ul li a.active + form {
+    display: block;
+}
+
+.leftpanel ul li.sep {
+    border:  0px solid;
+    height: 1px;
+    box-shadow: 0 0 20px #7f8c8d;
+}
+
+.body .content {
+    max-width: 950px;
+    margin-left: 250px;
+    padding: 25px;
+    color: #2c3e50;
+}

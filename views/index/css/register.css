@@ -1,0 +1,97 @@
+
+body {
+    margin: 0 0 0 0;
+    padding:  0 0 0 0;
+   
+}
+
+.header {
+    text-align: left;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: auto;
+    z-index: 10;
+    
+    position: fixed;
+    height: 65px;
+    box-shadow: 0 0 9px #9b59b6;
+    color: rgb(255, 255, 255);
+    padding: 0 0px;
+    background-color: #fff;
+}
+
+.header .title {
+    background-color: #046eb4;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 60px;
+}
+#middle{
+    margin-top: 100px;
+}
+#heading{
+    
+    color: #fff;
+    width: 80%;
+    margin: 0 auto;
+    height: 30px;
+    background-color: #676adf;
+}
+
+
+
+#reg_main {
+    
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #EEE;
+    box-shadow: 0 0 3px #808080;
+}
+
+#fregister{
+    padding-top: 20px;
+    padding-bottom: 40px;
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+    
+}
+
+
+#abc label{
+    font-size: large;
+    width: 200px;
+    text-align: right;
+}
+
+.details{
+    height: 20px;
+    width: 250px;
+    margin-bottom: 8px;
+}
+/*
+
+label {
+    width: 200px;
+    
+    margin-bottom: 10px;
+    text-align: right;
+    
+}
+
+abc {
+    width: 35%;
+    height: 30px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+#register {
+    width: 100px;
+    height: 25px;
+    margin-top: 50px;
+}
+    */
